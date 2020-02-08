@@ -1,5 +1,5 @@
 # collatz
-**Program using while loop & conditional if, elif & else statements to execute simple formulas & iterate until the while loop condition is met.**
+**Program using while loop & conditional if, elif & else statements to execute simple formulas & reiterate until the while loop condition is met.**
 
 *Week 4 Programming & Scripting Task*
 
