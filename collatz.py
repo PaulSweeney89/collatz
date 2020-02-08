@@ -1,33 +1,26 @@
 # Week 4 Task
 # Input positive interger, 
-# if input value is even (multiple input value by 2)
+# if input value is even (divide input value by 2)
 # if input value is odd (multiple input value by 3 & add 1)
 # end program if current value = 1
 
-x = int(input("input positive interger number: "))
+# input must be a interger number or program will not run
+x = int(input("Input positive interger number: "))
 
+# run 'while loop' until condition is met
+while x != 1:
 
-#Test Code
-#while x > 0:
-    
-    #if x % 2 == 0:
-        #calc = x * 2
-        #print(x, "is a even number!", "calculation = ", x, "x 2 = ", calc)
+# conditional statement 1 - input number must be positive & greater than 0 for program to continue
+    if x <= 0:
+        print(x, "is not a positive interger number.")
+        break
 
-    #if x % 2 != 0:
-        #calc = (x * 3) + 1
-        #print (x, "is a odd number!", "calculation = ", x, "x 3 + 1", calc)
-    #break
+# conditional statement 2- if input number is even execute below formula 
+    elif x % 2 == 0:
+        x = x / 2
+        print(x)
 
-
-while x > 1:
-    if x % 2 == 0:
-        x = x * 2
-    
-    if x % 2 != 0:
+ # conditional statement 3- if input number is odd execute below formula    
+    elif x % 2 != 0:
         x = x * 3 + 1
-
-    break
- 
-
-
+        print(x)
