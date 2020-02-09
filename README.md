@@ -12,9 +12,7 @@ x = int(input("Input positive interger number: "))
 - Initiate the while loop (end loop iterations when 'x = 1').
 ```
 while x != 1:
-```collatz.py
-Input positive interger number: 10
-10 5 16 8 4 2 1 (base) paul@Paul-HP-Laptop:~/Desktop/collatz$ 
+```
 - Conditional statement 1 - **if** input value 'x' is less than or equal to zero then end 'while' loop & print message "x is not a positive interger number" otherwise program continues to conditional statement 2 or 3.
 ```
   if x <= 0:
@@ -25,19 +23,19 @@ Input positive interger number: 10
 ```    
   elif x % 2 == 0:
     x = x / 2
-    print(x)
+    print(x, end=' ')
 ```
 - Conditional statement 3 - **elif** input value 'x' is a odd number (remainder of x / 2 ≠ 0) then execute the formula x = (x * 3) + 1 and output the new calculated value for x and reiterate the while loop.
 ```
   elif x % 2 != 0:
     x = x * 3 + 1
-    print(x)
+    print(x, end=' ')
 ```
 - Alternatively the above Conditional statement 3 could be replaced using an **else** statement to conclude the required conditions of the while loop.
 ```
   else:
     x= x * 3 + 1
-    print(x)
+    print(x, end=' ')
 ```
 - Provided the correct input is entered into the program at the start, the while loop will continue to interate through the formulas within the conditional statements 2 & 3, solving for a new value of x each time until the while loop condition is met i.e the value 'x' reaches 1.  
 
