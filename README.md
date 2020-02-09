@@ -12,7 +12,9 @@ x = int(input("Input positive interger number: "))
 - Initiate the while loop (end loop iterations when 'x = 1').
 ```
 while x != 1:
-```
+```collatz.py
+Input positive interger number: 10
+10 5 16 8 4 2 1 (base) paul@Paul-HP-Laptop:~/Desktop/collatz$ 
 - Conditional statement 1 - **if** input value 'x' is less than or equal to zero then end 'while' loop & print message "x is not a positive interger number" otherwise program continues to conditional statement 2 or 3.
 ```
   if x <= 0:
@@ -43,12 +45,7 @@ Example of input, interations & output of Program:
 ```
 collatz.py
 Input positive interger number: 10
-5.0
-16.0
-8.0
-4.0
-2.0
-1.0
+10 5 16 8 4 2 1
 ```
 
 References:
